@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone Codebase') {
             steps {
-                echo 'Clone github repos'
+                echo 'Clone github repo'
                 git 'https://github.com/nicolasVtt/maven-project.git'
             }
         }
